@@ -1,0 +1,454 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+  font-family: "Voltaire";
+  src: url("font/Voltaire-Regular.otf")
+}
+@font-face {
+  font-family: "mensch";
+  src: url("font/mensch-webfont.eot")
+}
+@font-face {
+  font-family: "oswald";
+  src: url("font/oswald.light.ttf")
+}
+@font-face {
+  font-family: "oswald.bold";
+  src: url("font/oswald.bold.ttf")
+}
+.bg-xl{
+	background: url('img/gb21.jpg')no-repeat #000;
+}
+.bg-small{
+	background: url('img/gb22.jpg')no-repeat fixed center top -21px #000;
+}
+body{
+	margin: 0 auto;
+	margin: 0 auto;
+	max-width: 1500px;
+}
+.numero-contacto-home{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+}
+.numero-contacto-home a{
+	width: 100%;
+	margin: 0 auto;
+}
+/*nav*/
+.header{
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 74px;
+	position: relative;
+}
+.numero-contacto-header{
+	/*background: #fff;*/
+	width: 100%;
+	height: 24px;	
+}
+.numero-contacto-header p{
+	float: right;
+	margin: 0px 14px;
+	font-size: 20px;	
+}
+.numero-contacto-header label{
+	float: right;
+	margin: 0px 0px;
+	font-size: 20px;	
+}
+
+.nav{
+	height: 93px; 
+	width: 960px;
+	margin: 0px auto;
+}
+.nav ul li {
+	float: left;
+	min-width: 110px;
+	text-align: center;
+	/* background: rgba(255,255,255,0.1); */
+	margin: 0px 10px;
+	/* -webkit-border-radius: 118px 113px; */
+	-moz-border-radius: 5px 10px;
+	height: 74px;
+	line-height: 45px;
+	line-height: 74px;
+}
+.nav ul li a{
+	padding: 10px;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: Voltaire;
+	color: white;
+
+}
+.nav-img-center{
+	background-image: url('img/electromax.jpg');
+	width: 683px;
+	height: 383px;
+	min-height: 383px;
+}
+.nav ul{
+	float: right;
+	width: 660px;
+}
+.nav ul{
+	width: 900px;
+}
+.nav ul li a img{
+	margin-top: -28px;
+/*
+	margin-left: -30px;
+*/
+}
+.nav ul {
+	width: 670px;
+}
+.logo-no-active{
+	float: left;
+	position: relative;
+	top: -22px;
+}
+.nav-active{
+	background : white;
+	color: #df1431 !important;
+	height: 56px;
+}
+.color-active{
+	color: #df1431 !important;
+}
+/*fin nav*/
+.clear{
+	clear: both;
+}
+.content{
+	width: 960px;
+	margin: 30px auto;
+}
+.content-emergencia,.content-quienes-somos{
+	width: 100%;
+	margin: 0 auto;
+	background: white;
+}
+.slider-home{
+	background: url('img/bg-slider.png');
+}
+.trabajos{
+	margin: 25px auto;
+	width: 920px;
+}
+.trabajos div{
+	float: left;
+	width: 180px;
+	opacity: 0.9;
+}
+.trabajos div h2{
+	width: 180px;
+	text-align: center;
+	color: #5BBA46;
+}
+.trabajos div div {
+	height: 173px;
+	overflow: hidden;
+}
+.trabajos div div img{
+	margin-top:-173px; 
+}
+.active-trabajos{
+	opacity: 1 !important;
+}
+.box-shadow{
+	webkit-box-shadow: 1px 0px 44px 1px rgba(0,0,0,0.69);
+	-moz-box-shadow: 1px 0px 44px 1px rgba(0,0,0,0.69);
+	box-shadow: 1px 0px 44px 1px rgba(0,0,0,0.69);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+#slideshow{
+	background: rgba(0,0,0,0.5) !important;
+	border: 0px !important;
+	padding: 15px !important;
+	box-shadow: 0 3px 5px black !important;
+}
+/*emergencia*/
+.emergencia,.reparaciones-electricas,.mantencion-electrica,.instalacion-electrica-construcion{
+	background: rgba(0,0,0,0.9);
+	-webkit-border-radius: 18px 13px;
+	padding: 10px;
+	margin: 0px 10px;
+}
+.content-emergencia,.content-quienes-somos,.content-contacto{
+	width: 920px;
+	padding: 20px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.7);
+	-webkit-border-radius: 18px 13px;
+	-moz-border-radius: 5px 10px;
+	color: white;
+}
+.content-img,.quines-somos-img{
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+.content-img img{
+	margin: -427px 0px 0px 0px;
+}
+.descrip-emergencia,.descrip-quienes-somos{
+	width: 500px;
+}
+.titulo {
+	height: 40px;
+	color: white;
+	font-size: 35px;
+	font-family: Voltaire;
+	padding-bottom: 10px;
+	width: 500px;
+	float: left;
+	border-bottom: 3px solid;
+}
+.descrip-emergencia{
+	margin-top: 80px;
+}
+/*fin emergencia*/
+/*portafolio*/
+.circulo-portafolio{
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #4679BD;
+}
+.circulo-portafolio{}
+
+a.yon {
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:350px;
+	height:350px;
+	-webkit-border-radius:180px;
+	-moz-border-radius:180px;
+	border-radius:180px;
+
+	background-image:url(img/mantencion.png);
+	background-repeat:no-repeat;
+	background-origin:border-box;
+	background-position:50% 50%;
+
+	border-width:50px;
+	border-color:rgba(0,0,0,0);
+	opacity: 0.6;
+	-webkit-transition:0.5s ease;
+	transition:0.5s ease;
+	margin:20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.descripcion-portafolio{
+	display: none;
+}
+.content-portafolio{
+	width: 960px;
+	margin: 0 auto;
+}
+/*fin portafolio*/
+
+p{
+	text-align: justify;
+}
+footer{
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 200px;
+	margin-top: 50px;
+}
+.content-footer{
+	width: 960px;
+	margin: 0 auto;
+}
+ul.mapa-del-sitio li,.contacto-footer {
+	margin: 0px 19px;
+	color: white;
+	display: block;
+}
+ul.mapa-del-sitio  a{
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: Voltaire;
+}
+ul.mapa-del-sitio  a:hover{
+	color: #df1431 !important;
+}
+.mapa-del-sitio,.contacto-footer,.social-media-footer{
+	margin: 25px 100px 0px 0px;
+	float: left;
+}
+.telefono-footer,.celular-footer,.mail-footer{
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 25px;
+}
+.celular-footer{
+	background: url('img/celular-footer1.png') 13px -60px no-repeat;
+	height: 59px !important;
+}
+.telefono-footer{
+	background: url('img/telefono-footer1.png') 0px -60px no-repeat;
+}
+.mail-footer{
+	background: url('img/mail-footer1.png') 0px -60px no-repeat;
+}
+.celular-footer:hover{
+	background: url('img/celular-footer1.png') 13px -3px no-repeat;
+}
+.telefono-footer:hover{
+	background: url('img/telefono-footer1.png') 0px 3px no-repeat;
+}
+.mail-footer:hover{
+	background: url('img/mail-footer1.png') 0px -5px no-repeat;
+}
+.telefono-footer p,.celular-footer p,.mail-footer p{
+	margin: 0px 80px;
+}
+.tw-footer:hover{
+	background: url('img/tw-footer.png') 0px -60px no-repeat;
+}
+.fb-footer:hover{
+	background: url('img/fb-footer.png') 0px -60px no-repeat;
+}
+.tw-footer{
+	width: 60px;
+	height: 60px;
+	background: url('img/tw-footer.png') 0px 0px no-repeat;
+}
+.fb-footer{
+	width: 60px;
+	height: 60px;
+	background: url('img/fb-footer.png') 0px 0px no-repeat;
+}
+.tw-footer,.fb-footer{
+	float: left;
+	margin: 50px 10px;
+}
+.lista-portafolio { 
+    margin: 20px 0 0 0; 
+    padding: 0; 
+    list-style: none; 
+    display: block; 
+    text-align: center; 
+    width: 100%; 
+} 
+.lista-portafolio:after { 
+    clear: both; 
+} 
+  
+.lista-portafolio li { 
+    width: 270px !important; 
+    height: 400px !important; 
+    display: inline-block; 
+    margin: 20px; 
+    float: left;
+    -webkit-border-radius: 18px 13px;
+	-moz-border-radius: 5px 10px;
+	overflow: hidden;
+	color: white;
+	background: rgba(0,0,0,0.7);
+} 
+.titulo-portafolio{
+	font-size: 25px;
+	margin: 16px 0px;
+}
+.ch-item{
+	height: 400px;
+	cursor: pointer;
+}
+.ch-info{
+	height: 140px;
+	margin: 0px 20px;
+}
+.ch-info div label{
+	font-weight: bold;
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+.info{
+	height: auto !important;
+	margin: 25px 0px !important;
+}
+.slideshow-realizados{
+	float: right;
+	margin-top:50px !important; 
+}
+.ch-img{
+	overflow: hidden;
+	height: 240px;
+}
+.zoom{
+	transition: 1.5s ease;
+	-moz-transition: 1.5s ease; /* Firefox */
+	-webkit-transition: 1.5s ease; /* Chrome - Safari */
+	-o-transition: 1.5s ease; /* Opera */
+	}
+.zoom:hover,.zoom-active{
+	transform : scale(1.2);
+	-moz-transform : scale(1.2); /* Firefox */
+	-webkit-transform : scale(1.2); /* Chrome - Safari */
+	-o-transform : scale(1.2); /* Opera */
+	-ms-transform : scale(1.2); /* IE9 */
+}
+/*
+.lista-portafolio li .ch-item{
+	box-shadow: inset 0 0 0 0 rgba(62,113,144,0.4), inset 0 0 0 7px rgba(62,113,144,0.4), 0 1px 2px rgba(0,0,0,0.1) !important;
+	-webkit-transition:0.5s ease;
+	transition:0.5s ease;
+}
+.lista-portafolio li .ch-item:hover{
+	box-shadow: inset 0 0 0 175px rgba(62,113,144,0.6), inset 0 0 0 7px rgba(62,113,144,0.6), 0 1px 2px rgba(62,113,144,0.6) !important;
+	-webkit-transition:0.5s ease;
+	transition:0.5s ease;
+}*/
+
+/*CONTACTO*/
+.form-contacto {
+	width: 210px;
+	margin: 81px auto;
+}
+input[type="text"], select, textarea {
+	width: 200px;
+	height: 30px;
+	font-size: 15px;
+	text-align: center;
+	margin: 5px 0px;
+	background: rgba(0,0,0,0.3);
+	border: rgba(0,0,0,0.3);
+	color: grey;
+}
+textarea{
+	height: 120px !important;
+}
+input[type="submit"]{
+	padding: 10px;
+	font-family: Voltaire;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	border: rgba(0,0,0,0.8);
+}
+input[type="submit"]:hover,.nav ul li:hover{
+	background: rgba(0,0,0,1);
+}
+.form-contacto	input[type="submit"]{
+	float: right;
+}
+/*FIN CONTACTO */
