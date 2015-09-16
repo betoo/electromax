@@ -1,0 +1,33 @@
+@media (min-width: 1200px) { 
+	.content-servicios-home {
+	    height: 167px !important;
+	}
+
+	.img-servicios-home {
+	    margin-top: -175px !important;
+	}
+/*
+	.content-img {
+	    height: 170px;
+	}
+	.content-img img {
+	    margin-top: -175px;
+	}
+*/
+	.container-home {
+	    top: 0px; 
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom {
+	     position: static; 
+	}
+	footer {
+	    top: 0px;
+	}
+	.vertical-center {
+	    height: 200px;
+	}
+	.content-footer {
+	    width: 85%;
+	    margin: 0 auto;
+	}
+}

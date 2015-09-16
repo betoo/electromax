@@ -1,0 +1,593 @@
+[12-Sep-2015 03:55:35 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/electr16/public_html/views/empresa/home.php on line 24
+[12-Sep-2015 05:04:35 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/electr16/public_html/views/layouts/main.php on line 32
+[12-Sep-2015 05:04:47 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/electr16/public_html/views/layouts/main.php on line 32
+[12-Sep-2015 05:15:49 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/electr16/public_html/views/layouts/main.php on line 69
+[12-Sep-2015 07:27:32 UTC] PHP Parse error:  syntax error, unexpected ''columns'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/views/servicio/index.php on line 26
+[12-Sep-2015 07:27:39 UTC] PHP Parse error:  syntax error, unexpected ''columns'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/views/servicio/index.php on line 26
+[12-Sep-2015 08:33:14 UTC] PHP Fatal error:  Class 'Html' not found in /home/electr16/public_html/views/layouts/footer.php on line 4
+[12-Sep-2015 08:40:22 UTC] PHP Fatal error:  Class 'Empresa' not found in /home/electr16/public_html/views/empresa/home.php on line 11
+[12-Sep-2015 08:40:53 UTC] PHP Fatal error:  Class 'Empresa' not found in /home/electr16/public_html/views/empresa/home.php on line 11
+[12-Sep-2015 08:42:00 UTC] PHP Fatal error:  Class 'Html' not found in /home/electr16/public_html/views/empresa/home.php on line 25
+[12-Sep-2015 08:42:16 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/electr16/public_html/views/layouts/footer.php on line 8
+[12-Sep-2015 09:14:01 UTC] PHP Parse error:  syntax error, unexpected ''verbs'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/controllers/EmpresaController.php on line 31
+[12-Sep-2015 10:36:29 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/electr16/public_html/controllers/SiteController.php on line 60
+[12-Sep-2015 10:37:36 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/electr16/public_html/controllers/SiteController.php on line 60
+[12-Sep-2015 10:37:41 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/electr16/public_html/controllers/SiteController.php on line 60
+[12-Sep-2015 10:37:47 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/electr16/public_html/controllers/SiteController.php on line 60
+[12-Sep-2015 10:37:56 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/electr16/public_html/controllers/SiteController.php on line 60
+[12-Sep-2015 10:51:50 UTC] An Error occurred while handling another error:
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'tinto', NULL)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#14 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#16 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#18 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#22 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#24 [internal function]: yii\web\ErrorAction->run()
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#28 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#29 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#30 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#31 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#12 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#14 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#16 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#18 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#22 [internal function]: yii\web\ErrorAction->run()
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#24 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#28 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#29 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img-sys/bg.jpg".' in /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('img-sys/bg.jpg', Array)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/lib/courier-imap/sbin:/usr/lib/courier-imap/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'SCRIPT_NAME' => '/index.php',
+    'REQUEST_URI' => '/img-sys/bg.jpg',
+    'QUERY_STRING' => '',
+    'REQUEST_METHOD' => 'GET',
+    'SERVER_PROTOCOL' => 'HTTP/1.0',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REDIRECT_URL' => '/404.shtml',
+    'REMOTE_PORT' => '49141',
+    'SCRIPT_FILENAME' => '/home/electr16/public_html/index.php',
+    'SERVER_ADMIN' => 'webmaster@electromax.cl',
+    'DOCUMENT_ROOT' => '/home/electr16/public_html',
+    'REMOTE_ADDR' => '179.4.43.189',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '186.64.117.50',
+    'SERVER_NAME' => 'electromax.cl',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'close',
+    'HTTP_X_FORWARDED_FOR' => '179.4.43.189',
+    'HTTP_X_FORWARDED_SERVER' => 'electromax.cl',
+    'HTTP_X_FORWARDED_HOST' => 'electromax.cl',
+    'HTTP_X_REAL_IP' => '179.4.43.189',
+    'HTTP_COOKIE' => '_csrf=0a7aff18734b55c0428e9d1a31e51b778ad5a272059c1e29e6aba727816b537fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oZNX_epDPOxeNE8qRRxcD3f7sROxLqzu%22%3B%7D',
+    'HTTP_HOST' => 'electromax.cl',
+    'HTTP_REFERER' => 'http://electromax.cl/cpanel',
+    'UNIQUE_ID' => 'VfQDxrpAdTIACdZgf7YAAAAK',
+    'REDIRECT_STATUS' => '404',
+    'REDIRECT_UNIQUE_ID' => 'VfQDxrpAdTIACdZgf7YAAAAK',
+    'REDIRECT_REDIRECT_STATUS' => '404',
+    'REDIRECT_REDIRECT_REQUEST_METHOD' => 'GET',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'VfQDxrpAdTIACdZgf7YAAAAK',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1442055110.4889509677886962890625,
+    'REQUEST_TIME' => 1442055110,
+]
+[12-Sep-2015 10:51:50 UTC] An Error occurred while handling another error:
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'tinto', NULL)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#14 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#16 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#18 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#22 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#24 [internal function]: yii\web\ErrorAction->run()
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#28 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#29 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#30 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#31 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#12 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#14 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#16 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#18 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#22 [internal function]: yii\web\ErrorAction->run()
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#24 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#28 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#29 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img-sys/headerbg.jpg".' in /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('img-sys/headerb...', Array)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/lib/courier-imap/sbin:/usr/lib/courier-imap/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'SCRIPT_NAME' => '/index.php',
+    'REQUEST_URI' => '/img-sys/headerbg.jpg',
+    'QUERY_STRING' => '',
+    'REQUEST_METHOD' => 'GET',
+    'SERVER_PROTOCOL' => 'HTTP/1.0',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REDIRECT_URL' => '/404.shtml',
+    'REMOTE_PORT' => '49142',
+    'SCRIPT_FILENAME' => '/home/electr16/public_html/index.php',
+    'SERVER_ADMIN' => 'webmaster@electromax.cl',
+    'DOCUMENT_ROOT' => '/home/electr16/public_html',
+    'REMOTE_ADDR' => '179.4.43.189',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '186.64.117.50',
+    'SERVER_NAME' => 'electromax.cl',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'close',
+    'HTTP_X_FORWARDED_FOR' => '179.4.43.189',
+    'HTTP_X_FORWARDED_SERVER' => 'electromax.cl',
+    'HTTP_X_FORWARDED_HOST' => 'electromax.cl',
+    'HTTP_X_REAL_IP' => '179.4.43.189',
+    'HTTP_COOKIE' => '_csrf=0a7aff18734b55c0428e9d1a31e51b778ad5a272059c1e29e6aba727816b537fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oZNX_epDPOxeNE8qRRxcD3f7sROxLqzu%22%3B%7D; PHPSESSID=91oj8f7ar6ki2dffki0tvqk6m1',
+    'HTTP_HOST' => 'electromax.cl',
+    'HTTP_REFERER' => 'http://electromax.cl/cpanel',
+    'UNIQUE_ID' => 'VfQDxrpAdTIACdYVXdEAAACC',
+    'REDIRECT_STATUS' => '404',
+    'REDIRECT_UNIQUE_ID' => 'VfQDxrpAdTIACdYVXdEAAACC',
+    'REDIRECT_REDIRECT_STATUS' => '404',
+    'REDIRECT_REDIRECT_REQUEST_METHOD' => 'GET',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'VfQDxrpAdTIACdYVXdEAAACC',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1442055110.796681880950927734375,
+    'REQUEST_TIME' => 1442055110,
+]
+[12-Sep-2015 10:51:51 UTC] An Error occurred while handling another error:
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'tinto', NULL)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#14 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#16 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#18 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#22 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#24 [internal function]: yii\web\ErrorAction->run()
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#28 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#29 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#30 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#31 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#12 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#14 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#16 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#18 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#22 [internal function]: yii\web\ErrorAction->run()
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#24 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#28 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#29 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "img-sys/contentbox.jpg".' in /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('img-sys/content...', Array)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/lib/courier-imap/sbin:/usr/lib/courier-imap/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'SCRIPT_NAME' => '/index.php',
+    'REQUEST_URI' => '/img-sys/contentbox.jpg',
+    'QUERY_STRING' => '',
+    'REQUEST_METHOD' => 'GET',
+    'SERVER_PROTOCOL' => 'HTTP/1.0',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REDIRECT_URL' => '/404.shtml',
+    'REMOTE_PORT' => '49143',
+    'SCRIPT_FILENAME' => '/home/electr16/public_html/index.php',
+    'SERVER_ADMIN' => 'webmaster@electromax.cl',
+    'DOCUMENT_ROOT' => '/home/electr16/public_html',
+    'REMOTE_ADDR' => '179.4.43.189',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '186.64.117.50',
+    'SERVER_NAME' => 'electromax.cl',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'close',
+    'HTTP_X_FORWARDED_FOR' => '179.4.43.189',
+    'HTTP_X_FORWARDED_SERVER' => 'electromax.cl',
+    'HTTP_X_FORWARDED_HOST' => 'electromax.cl',
+    'HTTP_X_REAL_IP' => '179.4.43.189',
+    'HTTP_COOKIE' => '_csrf=0a7aff18734b55c0428e9d1a31e51b778ad5a272059c1e29e6aba727816b537fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oZNX_epDPOxeNE8qRRxcD3f7sROxLqzu%22%3B%7D; PHPSESSID=91oj8f7ar6ki2dffki0tvqk6m1',
+    'HTTP_HOST' => 'electromax.cl',
+    'HTTP_REFERER' => 'http://electromax.cl/cpanel',
+    'UNIQUE_ID' => 'VfQDxrpAdTIACdX0UH0AAADV',
+    'REDIRECT_STATUS' => '404',
+    'REDIRECT_UNIQUE_ID' => 'VfQDxrpAdTIACdX0UH0AAADV',
+    'REDIRECT_REDIRECT_STATUS' => '404',
+    'REDIRECT_REDIRECT_REQUEST_METHOD' => 'GET',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'VfQDxrpAdTIACdX0UH0AAADV',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1442055111.79741001129150390625,
+    'REQUEST_TIME' => 1442055111,
+]
+[12-Sep-2015 11:27:49 UTC] An Error occurred while handling another error:
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'tinto', NULL)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#14 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#16 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#18 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#22 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#24 [internal function]: yii\web\ErrorAction->run()
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#28 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#29 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#30 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#31 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /home/electr16/public_html/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /home/electr16/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /home/electr16/public_html/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('empresa')
+#8 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('empresa')
+#9 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 /home/electr16/public_html/vendor/yiisoft/yii2/db/ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#11 /home/electr16/public_html/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveRecord::findByCondition(1)
+#12 /home/electr16/public_html/views/layouts/footer.php(14): yii\db\BaseActiveRecord::findOne(1)
+#13 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#14 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#15 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/electr16/...', Array, NULL)
+#16 /home/electr16/public_html/views/layouts/main.php(66): yii\base\View->render('@app/views/layo...', Array)
+#17 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(325): require('/home/electr16/...')
+#18 /home/electr16/public_html/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/electr16/...', Array)
+#19 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('/home/electr16/...', Array, Object(app\controllers\SiteController))
+#20 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#21 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#22 [internal function]: yii\web\ErrorAction->run()
+#23 /home/electr16/public_html/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#24 /home/electr16/public_html/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#25 /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('error', Array)
+#26 /home/electr16/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(85): yii\base\Module->runAction('site/error')
+#27 /home/electr16/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#28 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#29 {main}
+Additional Information:
+
+Previous exception:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "emails/create".' in /home/electr16/public_html/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('emails/create', Array)
+#1 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/electr16/public_html/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/electr16/public_html/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/electr16/public_html/index.php(13): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/jdk/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/lib/courier-imap/sbin:/usr/lib/courier-imap/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/usr/local/bin:/usr/X11R6/bin:/root/bin:/opt/bin',
+    'PWD' => '/usr/local/cpanel/cgi-sys',
+    'SHLVL' => '0',
+    'SCRIPT_NAME' => '/index.php',
+    'REQUEST_URI' => '/emails/create',
+    'QUERY_STRING' => '',
+    'REQUEST_METHOD' => 'GET',
+    'SERVER_PROTOCOL' => 'HTTP/1.0',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'REDIRECT_URL' => '/emails/create',
+    'REMOTE_PORT' => '51271',
+    'SCRIPT_FILENAME' => '/home/electr16/public_html/index.php',
+    'SERVER_ADMIN' => 'webmaster@electromax.cl',
+    'DOCUMENT_ROOT' => '/home/electr16/public_html',
+    'REMOTE_ADDR' => '179.4.43.189',
+    'SERVER_PORT' => '80',
+    'SERVER_ADDR' => '186.64.117.50',
+    'SERVER_NAME' => 'electromax.cl',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_SIGNATURE' => '',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_CONNECTION' => 'close',
+    'HTTP_X_FORWARDED_FOR' => '179.4.43.189',
+    'HTTP_X_FORWARDED_SERVER' => 'electromax.cl',
+    'HTTP_X_FORWARDED_HOST' => 'electromax.cl',
+    'HTTP_X_REAL_IP' => '179.4.43.189',
+    'HTTP_COOKIE' => '_csrf=0a7aff18734b55c0428e9d1a31e51b778ad5a272059c1e29e6aba727816b537fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oZNX_epDPOxeNE8qRRxcD3f7sROxLqzu%22%3B%7D; PHPSESSID=91oj8f7ar6ki2dffki0tvqk6m1',
+    'HTTP_HOST' => 'electromax.cl',
+    'UNIQUE_ID' => 'VfQMNLpAdTIADgsNSVAAAAFG',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'VfQMNLpAdTIADgsNSVAAAAFG',
+    'FCGI_ROLE' => 'RESPONDER',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1442057269.179172992706298828125,
+    'REQUEST_TIME' => 1442057269,
+]
+[12-Sep-2015 11:28:16 UTC] PHP Fatal error:  Class 'app\models\Emails' not found in /home/electr16/public_html/controllers/EmpresaController.php on line 90
+[12-Sep-2015 11:54:57 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/EmailsController.php on line 71
+[12-Sep-2015 11:55:26 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/EmailsController.php on line 71
+[12-Sep-2015 11:56:02 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/EmailsController.php on line 72
+[12-Sep-2015 11:56:10 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/electr16/public_html/controllers/EmailsController.php on line 93
+[12-Sep-2015 12:04:50 UTC] PHP Fatal error:  Class 'app\controllers\Empresa' not found in /home/electr16/public_html/controllers/EmailsController.php on line 66
+[12-Sep-2015 12:09:01 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[12-Sep-2015 12:28:09 UTC] PHP Fatal error:  Call to a member function saveAs() on null in /home/electr16/public_html/controllers/ServicioController.php on line 74
+[12-Sep-2015 12:32:40 UTC] PHP Fatal error:  Call to a member function saveAs() on null in /home/electr16/public_html/controllers/ServicioController.php on line 75
+[12-Sep-2015 12:33:05 UTC] PHP Fatal error:  Call to a member function saveAs() on null in /home/electr16/public_html/controllers/ServicioController.php on line 75
+[12-Sep-2015 12:33:13 UTC] PHP Fatal error:  Call to a member function saveAs() on null in /home/electr16/public_html/controllers/ServicioController.php on line 75
+[12-Sep-2015 12:34:06 UTC] PHP Fatal error:  Call to a member function saveAs() on null in /home/electr16/public_html/controllers/ServicioController.php on line 76
+[12-Sep-2015 12:35:19 UTC] PHP Fatal error:  Call to a member function saveAs() on null in /home/electr16/public_html/controllers/ServicioController.php on line 77
+[12-Sep-2015 12:35:56 UTC] PHP Fatal error:  Call to a member function formName() on string in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[12-Sep-2015 12:39:34 UTC] PHP Fatal error:  Call to a member function formName() on string in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[12-Sep-2015 12:59:28 UTC] PHP Fatal error:  Call to a member function saveAs() on string in /home/electr16/public_html/controllers/ServicioController.php on line 77
+[12-Sep-2015 12:59:59 UTC] PHP Fatal error:  Call to a member function saveAs() on string in /home/electr16/public_html/controllers/ServicioController.php on line 77
+[12-Sep-2015 13:00:17 UTC] PHP Fatal error:  Call to a member function saveAs() on string in /home/electr16/public_html/controllers/ServicioController.php on line 77
+[12-Sep-2015 13:00:55 UTC] PHP Fatal error:  Call to a member function saveAs() on string in /home/electr16/public_html/controllers/ServicioController.php on line 76
+[12-Sep-2015 20:59:35 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[13-Sep-2015 09:34:40 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[13-Sep-2015 12:38:19 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[14-Sep-2015 01:58:30 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[14-Sep-2015 02:54:50 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[14-Sep-2015 07:00:54 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[14-Sep-2015 08:00:24 UTC] PHP Fatal error:  Call to a member function getActiveValidators() on array in /home/electr16/public_html/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 1227
+[14-Sep-2015 08:34:17 UTC] PHP Fatal error:  Cannot redeclare app\controllers\ContactoController::actionCreate() in /home/electr16/public_html/controllers/ContactoController.php on line 74
+[14-Sep-2015 08:34:54 UTC] PHP Fatal error:  Class 'app\controllers\Empresa' not found in /home/electr16/public_html/controllers/ContactoController.php on line 65
+[14-Sep-2015 08:35:19 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) in /home/electr16/public_html/controllers/ContactoController.php on line 50
+[14-Sep-2015 08:35:57 UTC] PHP Fatal error:  Class 'app\controllers\Empresa' not found in /home/electr16/public_html/controllers/ContactoController.php on line 65
+[14-Sep-2015 08:59:36 UTC] PHP Fatal error:  Cannot redeclare app\controllers\ContactoController::actionCreate() in /home/electr16/public_html/controllers/ContactoController.php on line 74
+[14-Sep-2015 08:59:41 UTC] PHP Fatal error:  Cannot redeclare app\controllers\ContactoController::actionCreate() in /home/electr16/public_html/controllers/ContactoController.php on line 74
+[14-Sep-2015 09:38:45 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/electr16/public_html/controllers/ContactoController.php on line 91
+[14-Sep-2015 09:43:23 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/ContactoController.php on line 82
+[14-Sep-2015 09:43:26 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/ContactoController.php on line 82
+[14-Sep-2015 09:43:33 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/ContactoController.php on line 82
+[14-Sep-2015 09:43:40 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/ContactoController.php on line 82
+[14-Sep-2015 09:49:11 UTC] PHP Parse error:  syntax error, unexpected '...' (T_ELLIPSIS), expecting ']' in /home/electr16/public_html/views/empresa/home.php on line 23
+[14-Sep-2015 09:49:20 UTC] PHP Fatal error:  Class 'Carousel' not found in /home/electr16/public_html/views/empresa/home.php on line 13
+[14-Sep-2015 09:49:23 UTC] PHP Fatal error:  Class 'Carousel' not found in /home/electr16/public_html/views/empresa/home.php on line 13
+[14-Sep-2015 10:17:13 UTC] PHP Fatal error:  Call to a member function saveAs() on string in /home/electr16/public_html/controllers/ServicioController.php on line 76
+[14-Sep-2015 10:18:19 UTC] PHP Fatal error:  Call to a member function saveAs() on string in /home/electr16/public_html/controllers/ServicioController.php on line 76
+[14-Sep-2015 10:18:28 UTC] PHP Fatal error:  Call to a member function saveAs() on string in /home/electr16/public_html/controllers/ServicioController.php on line 76
+[14-Sep-2015 10:33:04 UTC] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/electr16/public_html/controllers/ServicioController.php on line 78
+[14-Sep-2015 11:04:04 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/electr16/public_html/views/empresa/home.php on line 41
+[14-Sep-2015 11:32:50 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:32:50 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:32:50 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:32:52 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:32:50 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:32:52 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:32:52 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:32:53 UTC] PHP Parse error:  syntax error, unexpected ''twitter'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/electr16/public_html/models/Empresa.php on line 54
+[14-Sep-2015 11:42:17 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/electr16/public_html/controllers/EmpresaController.php on line 42
+[14-Sep-2015 11:42:19 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/electr16/public_html/controllers/EmpresaController.php on line 42
+[14-Sep-2015 14:36:23 UTC] PHP Fatal error:  Class 'app\controllers\Empresa' not found in /home/electr16/public_html/controllers/ServicioController.php on line 67
+[14-Sep-2015 14:59:43 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/electr16/public_html/controllers/EmpresaController.php on line 69
+[14-Sep-2015 15:02:17 UTC] PHP Fatal error:  Class 'app\controllers\UploadedFile' not found in /home/electr16/public_html/controllers/EmpresaController.php on line 69
+[14-Sep-2015 15:02:37 UTC] PHP Fatal error:  Class 'app\filters\UploadedFile' not found in /home/electr16/public_html/controllers/EmpresaController.php on line 69
+[14-Sep-2015 15:45:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/electr16/public_html/controllers/EmpresaController.php on line 78
+[14-Sep-2015 15:49:01 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/electr16/public_html/controllers/EmpresaController.php on line 75
+[14-Sep-2015 16:07:56 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/electr16/public_html/controllers/EmpresaController.php on line 69
+[16-Sep-2015 03:57:11 UTC] PHP Fatal error:  Call to a member function getRelation() on null in /home/electr16/public_html/controllers/EmpresaController.php on line 131
+[16-Sep-2015 04:15:55 UTC] PHP Fatal error:  Class 'app\controllers\Gallery' not found in /home/electr16/public_html/controllers/EmpresaController.php on line 74
+[16-Sep-2015 04:29:36 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/electr16/public_html/controllers/EmpresaController.php on line 71
+[16-Sep-2015 04:31:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/electr16/public_html/controllers/EmpresaController.php on line 75
+[16-Sep-2015 04:31:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/electr16/public_html/controllers/EmpresaController.php on line 75
+[16-Sep-2015 04:31:53 UTC] PHP Fatal error:  Call to a member function saveAs() on array in /home/electr16/public_html/controllers/EmpresaController.php on line 74
+[16-Sep-2015 04:48:15 UTC] PHP Fatal error:  Class 'FileInput' not found in /home/electr16/public_html/views/empresa/_form.php on line 31
+[16-Sep-2015 04:48:34 UTC] PHP Fatal error:  Class 'yii\widgets\FileInput' not found in /home/electr16/public_html/views/empresa/_form.php on line 32
+[16-Sep-2015 04:57:54 UTC] PHP Fatal error:  Call to a member function getRelation() on null in /home/electr16/public_html/controllers/EmpresaController.php on line 135
+[16-Sep-2015 04:59:13 UTC] PHP Fatal error:  Call to a member function getRelation() on null in /home/electr16/public_html/controllers/EmpresaController.php on line 135
+[16-Sep-2015 04:59:15 UTC] PHP Fatal error:  Call to a member function getRelation() on null in /home/electr16/public_html/controllers/EmpresaController.php on line 135
+[16-Sep-2015 04:59:45 UTC] PHP Fatal error:  Call to a member function getRelation() on null in /home/electr16/public_html/controllers/EmpresaController.php on line 135
+[16-Sep-2015 04:59:56 UTC] PHP Fatal error:  Call to a member function getRelation() on null in /home/electr16/public_html/controllers/EmpresaController.php on line 135

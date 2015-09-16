@@ -1,0 +1,228 @@
+body{
+	background: url(../img/gb22.jpg) no-repeat fixed center top -21px #000;
+}
+
+ body,a{
+	color: white ;
+}
+@font-face {
+  font-family: "Voltaire";
+  src: url("../font/Voltaire-Regular.otf")
+}
+@font-face {
+  font-family: "mensch";
+  src: url("../font/mensch-webfont.eot")
+}
+@font-face {
+  font-family: "oswald";
+  src: url("../font/oswald.light.ttf")
+}
+@font-face {
+  font-family: "oswald.bold";
+  src: url("../font/oswald.bold.ttf")
+}
+input[type="text"], select, textarea,#emails-content {
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 0px;
+    background-color: rgba(128, 128, 128,.2) !important;
+    border: rgba(0,0,0,.3) !important;
+    color: gray;
+}
+
+.navbar-brand img{
+    margin-top: -25px;
+}
+
+.nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Voltaire;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-transparent{
+	background-color: rgba(0,0,0,0.8);
+	
+}
+.container-fluid>.navbar-transparent{
+	margin: 30px 0px 25px ;
+}
+
+.nav {
+    height: 93px;
+    float: right;
+    margin: 0px auto;
+}
+.nav li a{
+	padding: 9px 15px !important;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    /* background: rgba(255,255,255,0.1); */
+    margin: 0px 10px;
+    /* -webkit-border-radius: 118px 113px; */
+    -moz-border-radius: 5px 10px;
+    height: 74px;
+    line-height: 45px;
+    line-height: 74px;
+}
+.nav  li:hover,.nav li a:hover {
+    background: rgba(0,0,0,1);
+    color: white;
+}
+
+.color-active {
+    color: #df1431 !important;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.titulo {
+    color: white;
+    font-size: 35px;
+    font-family: Voltaire;
+    border-bottom: 3px solid;
+}
+.content-img, .quines-somos-img {
+    overflow: hidden;
+    height: 400px;
+    float: right;
+}
+
+.content-img img {
+    margin: -382px 0px 0px 0px;
+}
+.quines-somos-img{
+	background-image: url(../img/electromax-xl.png);
+	background-repeat: no-repeat;
+}
+
+.content-views {
+    margin: 10px 5px;
+    background: rgba(0,0,0,0.7);
+    -webkit-border-radius: 18px 13px;
+    -moz-border-radius: 5px 10px;
+    color: white;
+    /* padding: 20px 15px; */
+}
+
+.img-servicios-home{
+	margin-top: -160px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.content-servicios-home {
+    overflow: hidden;
+    margin: 11px 0px;
+}
+
+.content-views>h2 {
+    text-align: center;
+    color: #5BBA46;
+}
+
+.trabajos div {
+    /*float: left;*/
+    opacity: .9;
+}
+.content-views h2{
+	text-align: center;
+}
+.active-trabajos {
+    opacity: 1!important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+     background-color: transparent !important; 
+}
+.trabajos div h2 {
+    text-align: center;
+    color: #5BBA46;
+}
+.container-home{
+    top: 140px;
+    position: relative;
+}
+
+.img-thumbnail {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+p{
+	text-align: justify;
+}
+
+
+
+/****************************
+            footer
+*****************************/
+footer {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: relative;
+    top: 150px;
+}
+.img_sec img{
+    max-height: 153px;
+    max-width: 300px;
+    margin: 10px;
+}
+.telefono-footer, .celular-footer, .mail-footer {
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    font-size: 25px;
+}
+.telefono-footer >img, .celular-footer>img, .mail-footer >img{
+    position: relative;
+    top: -60px;
+    float: left;
+}
+.celular-footer img:hover {
+    top: -3px;
+}
+.telefono-footer img:hover {
+    top: 2px;
+}
+.mail-footer img:hover  {
+    top: -5px;
+}
+
+.telefono-footer p, .celular-footer p, .mail-footer p {
+    margin: 0px 80px;
+    font-size: 20px;
+}
+.social-media-footer {
+    height: 60px;
+    overflow: hidden;
+    
+}
+.content-social-media{
+    width: 145px;
+}
+.social-media-footer a {
+    margin: 50px 10px;
+}
+.social-media-footer a img{
+    top:-60px;
+    position: relative;
+}
+
+.social-media-footer a img:hover{
+    top:0px;
+}
+/****************************
+           fin footer
+*****************************/

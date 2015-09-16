@@ -1,0 +1,26 @@
+@media (min-width: 992px){  
+
+	.content-servicios-home {
+	    height: 124px !important;
+	}
+
+	.img-servicios-home {
+	    margin-top: -124px !important;
+	}
+
+	.content-img {
+	    height: 330px;
+	}
+	.content-img img {
+	    margin-top: -330px;
+	}
+	.container-home {
+	    top: 0px; 
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom {
+	     position: static; 
+	}
+	footer {
+	    top: 0px;
+	}
+}
