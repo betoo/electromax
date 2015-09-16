@@ -1,0 +1,21 @@
+@media (max-width:768px) {
+
+	.content-servicios-home {
+	    height: 175px !important;
+	}
+
+	.img-servicios-home {
+	    margin-top: -175px !important;
+	}
+}
+
+@media (max-width:320px) {
+
+	.content-servicios-home {
+	    height: 150px !important;
+	}
+
+	.img-servicios-home {
+	    margin-top: -150px !important;
+	}
+}

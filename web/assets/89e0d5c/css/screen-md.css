@@ -1,0 +1,10 @@
+@media (min-width: 992px){  
+
+	.content-servicios-home {
+	    height: 124px !important;
+	}
+
+	.img-servicios-home {
+	    margin-top: -124px !important;
+	}
+}

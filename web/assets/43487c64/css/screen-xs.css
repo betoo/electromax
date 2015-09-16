@@ -1,0 +1,132 @@
+@media (max-width:767px) {
+	.content-servicios-home {
+	    height: 175px ;
+	}
+	.content-views{
+		min-height: 250px;
+	}
+	.img-servicios-home {
+	    margin-top: -175px ;
+	}
+	.nav li {
+	    float: none ;
+	}
+	.nav li a {
+	    color: black;
+	}
+
+	.nav{
+		background-color: white;
+    	color: black;
+ 		height: 100%;
+ 		float: none !important;
+	}
+
+	.navbar-toggle {
+	    background-color: rgba(255,255,255,0.8);
+	}
+	.navbar-toggle .icon-bar {
+		background-color: rgba(255,255,255,1)
+	}
+
+	.container-home{
+		top: 70px;
+	}
+
+	.container-fluid>.navbar-transparent {
+	    margin: 0px 0px 0px 0px ;
+	}
+
+	.content-img {
+	    height: 500px  ;
+	}
+	.content-img img {
+	    margin-top: -520px ;
+	}
+
+	.content-img{
+	    float: none;
+	}
+	.navbar-brand {
+	    padding: 6px 35px !important;
+	}
+
+	.navbar-brand img {
+	    max-width:40px;
+	    margin-top: 0px;
+	}
+	.servicio-index {
+	    overflow: scroll;
+	}
+
+
+}
+@media (max-width:737px) and (orientation:landscape){
+	.content-img {
+	    height: 560px  ;
+	}
+	.content-img img {
+	    margin-top: -590px ;
+	}
+}
+
+/* iphone 6 plus */
+@media (max-width:415px) and (orientation:portrait) {
+	.content-img {
+	    height: 260px   ;
+	}
+
+	.content-img img {
+	    margin-top: -270px ;
+	}
+
+}
+
+
+/* iphone 5*/
+@media (max-width:569px) and (orientation:landscape) {
+
+	.content-img {
+	    height: 402px  ;
+	}
+	.content-img img {
+	    margin-top: -425px ;
+	}
+
+}
+
+@media (max-width:567px) and (orientation:portrait) {
+	.content-img {
+	    height: 170px  ;
+	}
+
+	.content-img img {
+	    margin-top: -180px ;
+	}
+
+}
+
+
+/* iphone 4*/
+@media (max-width:321px) and (orientation:landscape) {
+
+	.content-img {
+	    height: 170px  ;
+	}
+
+	.content-img img {
+	    margin-top: -180px ;
+	}
+
+}
+
+@media (max-width:567px) and (orientation:landscape) {
+
+	.content-img {
+	    height: 330px  ;
+	}
+	.content-img img {
+	    margin-top: -330px ;
+	}
+
+}

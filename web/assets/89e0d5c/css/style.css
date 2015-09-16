@@ -1,0 +1,115 @@
+body{
+	background-image: url(../img/gb22.jpg);
+}
+ body,a{
+	color: white !important;
+}
+
+.navbar-transparent{
+	background-color: rgba(0,0,0,0.8);
+	
+}
+.container-fluid>.navbar-transparent{
+	margin: 30px 0px 25px !important;
+}
+
+.nav {
+    height: 93px;
+    
+    margin: 0px auto;
+}
+.nav li a{
+	padding: 9px 15px !important;
+}
+
+.nav li {
+    float: left;
+    text-align: center;
+    /* background: rgba(255,255,255,0.1); */
+    margin: 0px 10px;
+    /* -webkit-border-radius: 118px 113px; */
+    -moz-border-radius: 5px 10px;
+    height: 74px;
+    line-height: 45px;
+    line-height: 74px;
+}
+.nav  li:hover,.nav li a:hover {
+    background: rgba(0,0,0,1) !important;
+}
+
+.color-active {
+    color: #df1431 !important;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.titulo {
+    height: 40px;
+    color: white;
+    font-size: 35px;
+    font-family: Voltaire;
+    padding-bottom: 10px;
+    float: left;
+    border-bottom: 3px solid;
+}
+.content-img, .quines-somos-img {
+    overflow: hidden;
+    height: 400px;
+    float: right;
+}
+
+.content-img img {
+    margin: -382px 0px 0px 0px;
+}
+.quines-somos-img{
+	background-image: url(../img/electromax-xl.png);
+	background-repeat: no-repeat;
+}
+
+.content-views {
+    padding: 0px 15px;
+    margin: 10px 5px;
+    background: rgba(0,0,0,0.7);
+    -webkit-border-radius: 18px 13px;
+    -moz-border-radius: 5px 10px;
+    color: white;
+    /* padding: 0px 9px; */
+}
+
+.img-servicios-home{
+	margin-top: -160px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.content-servicios-home {
+    overflow: hidden;
+    margin: 11px 0px;
+}
+
+.content-views>h2 {
+    text-align: center;
+    color: #5BBA46;
+}
+
+.trabajos div {
+    /*float: left;*/
+    opacity: .9;
+}
+.content-views h2{
+	text-align: center;
+}
+.active-trabajos {
+    opacity: 1!important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+     background-color: transparent !important; 
+}
+.trabajos div h2 {
+    text-align: center;
+    color: #5BBA46;
+}
